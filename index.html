@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <body>
+    <div class="container">
+  <div class="back">
+    <div data-color="green" class="tiles green"></div>
+    <div data-color="red" class="tiles red"></div>
+    <div data-color="yellow" class="tiles yellow"></div>
+    <div data-color="blue" class="tiles blue"></div>
+  </div>
+  <div class="circle-back">
+    <div class="circle-menu">
+      <div class="title">Simon <sup>&#174</sup></div>
+      <div class="round-counter"></div>
+      <div class="round-counter-title">ROUND</div>
+      <div class="round">--</div>
+      <div><button class="start-btn"></button></div>
+      <div class="start-title">START</div>
+      <div class="strict-status"></div>
+      <div><button class="strict-btn"></button></div>
+      <div class="strict-title">STRICT</div>
+      <div class="switch-container">
+        <div class="onoffswitch">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch">
+          <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="victory">You win!<br><button id="play-again" class="btn btn-lg btn-success">Play Again</button></div>
+</div>
+
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./js/velocity.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+
+  </body>
+</html>
